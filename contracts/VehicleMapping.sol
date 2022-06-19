@@ -12,9 +12,8 @@ import "./VehicleNFT.sol";
 //vehicle mapping contract
 contract VehicleMapping is ReentrancyGuard,ERC721Holder {
     
-
     
-    constructor() {
+     constructor() {
         console.log("This is the Vehicle Mapping Contract ^_^");
     }
 
