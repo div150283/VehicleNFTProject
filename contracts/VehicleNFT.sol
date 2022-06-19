@@ -26,7 +26,7 @@ contract VehicleNFT is ERC721 {
         _tokenURIs[tokenId] = _newURI;
     }
     //minting function to safeky mint a new NFT
-    function safeMint(address to, string memory _tokenURI) public
+      function safeMint(address to, string memory _tokenURI) public
     {
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
